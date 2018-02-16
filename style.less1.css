@@ -1,0 +1,21 @@
+style.less1.css
+
+@background-color: red;
+@text-color: yellow;
+
+
+#circle(@size: 25px) {
+	background-color: @background-color;
+	border-radius: 100%;
+
+	width: @size;
+	height: @size;
+}
+
+#small-circle{
+	#circle;
+}
+
+#big-circle{
+	#circle(100px);
+}

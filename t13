@@ -1,0 +1,47 @@
+style.css
+
+p {
+  color: red;
+  text-align: center;
+}
+#myh1 {
+  font-family: Helvetica;
+  font-size: 50px;
+  color: blue;
+}
+.green {
+  color: green;
+}
+.center {
+  text-align: center;
+}
+.block1 {
+  margin: 10px 10px 10px 5px;
+  padding: 30px;
+  width: 150px;
+  background-color: pink;
+}
+
+-index14.html
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>CSS</title>
+<link rel="stylesheet" type="text/css" href="style.css">
+
+
+</head>
+<body>
+
+<h1 id="myh1" class="center">Header</h1>
+
+<div class="block1">
+	<p>Hello World</p>
+	<p>Hello World</p>
+	<p>Hello World</p>
+</div>
+<h1 class="green center"> Footer </h1>
+
+</body>
+</html>
